@@ -22,7 +22,7 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class PaymentFragment : Fragment() {
-
+ //
     lateinit var binding : FragmentPaymentBinding
     private lateinit var DetailVm : DetailViewModel
     private val homeViewModel : HomeViewModel by viewModels()
