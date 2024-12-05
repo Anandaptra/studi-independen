@@ -58,7 +58,7 @@ class HomeViewModel @Inject constructor(
     }
 
     fun getPenumpangDewasa():Int{
-        return sharedPreferences.getInt("dewasa",1)
+        return sharedPreferences.getInt("dewasa",0)
     }
 
     fun getPenumpangAnak():Int{
